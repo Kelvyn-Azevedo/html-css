@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        /* SELETORES PERSONALIZADOS
+            #    = id
+            .    = class 
+            :    = pseudo-class
+            ::   = pseudo-element
+            >    = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: rgb(255, 0, 0);
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        a:visited {
+            color: rgba(170, 0, 0, 0.898);
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: rgb(255, 179, 0);
+        }
+
+        a::before {
+        
+        }
+
+        a::after {
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://chat.openai.com/?model=text-davinci-002-render-sha" target="_blank">Chat GPT</a></li>
+        <li><a href="https://sounter.com/pt/learn/course/6533253" target="_blank">Aprenda Inglês</a></li>
+        <li><a href="https://youtu.be/c_BPE74gdlc" target="_blank">For Today-Pariah</a></li>
+    </ul>
+</body>
+</html>

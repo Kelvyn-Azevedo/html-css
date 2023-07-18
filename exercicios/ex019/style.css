@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+/* 
+    em HTML id = # (Só pode um elemento)
+    em HTML class = . (Pode vários elementos)
+ */
+
+body{
+    background-color:#475D7A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:#222D3B; 
+}
+
+h1#principal {
+    text-align: center;
+    color:#e9f2ff;
+    background-color: rgba(154, 154, 154, 0.171);
+    border-radius: 10px;
+}
+
+h2{
+    color: #6d8fba;
+}
+
+.basico {
+    color: #6cb9ba;
+}
+
+.intermediario {
+    color: #6cba8f;
+}
+
+.avancado {
+    color: #ba6c6c;
+}
+
+.destaque {
+    background-color: #6d8eba31;
+    border-radius: 10px;
+}
+
+p {
+    color: #e9f2ff;
+}
