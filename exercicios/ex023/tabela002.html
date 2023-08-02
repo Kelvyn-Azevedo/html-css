@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #0000a3;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+            color: #4343d3;
+        }
+
+        table{
+            width: 500px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            border: 1px solid black;
+            padding: 30px;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <!-- 
+        ANATOMIA PARA TABELAS GRANDES
+
+        TABLE
+            THEAD
+                tr, td, th
+            TBODY
+                tr, td, th
+            TFOOT
+                tr, td, th
+     -->
+
+     <table>
+        <thead>
+
+            <tr>
+                <th>Posição</th>
+                <th>Estado</th>
+                <th>População (2022)</th>
+                <th>População (2010)</th>
+                <th>% Crescimento Anual</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td>1º</td>
+                <td><a href="https://pt.wikipedia.org/wiki/São_Paulo"> <img src="Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""> São Paulo</a></td>
+                <td>44 420 459</td>
+                <td>41 262 199</td>
+                <td>0,62 <img src="Up_green.png" alt="seta verde para cima"></td>
+            </tr>
+
+            <tr>
+                <td>2º</td>
+                <td> <img src="Bandeira_de_Minas_Gerais.svg.webp" alt=""> Minas Gerais</td>
+                <td>20 538 718</td>
+                <td>19 597 330</td>
+                <td>0,39 <img src="Up_green.png" alt=""> </td>
+            </tr>
+
+            <tr>
+                <td>3º</td>
+                <td> <img src="Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt=""> Rio de Janeiro</td>
+                <td>16 054 524</td>
+                <td>15 989 929</td>
+                <td>0,03 <img src="Up_green.png" alt=""></td>
+            </tr>
+
+            <tr>
+                <td>4º</td>
+                <td> <img src="Bandeira_da_Bahia.svg.png" alt=""> Bahia</td>
+                <td>14 136 417</td>
+                <td>14 016 906</td>
+                <td>0,07 <img src="Up_green.png" alt=""></td>
+            </tr>
+
+            <tr>
+                <td>5º</td>
+                <td> <img src="Bandeira_do_Paraná.svg.webp" alt=""> Paraná</td>
+                <td>11 443 208</td>
+                <td>10 444 526</td>
+                <td>0,76 <img src="Up_green.png" alt=""></td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+        </tfoot>
+     </table>
+
+</body>
+</html>
