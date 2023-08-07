@@ -5,41 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        a {
-            text-decoration: none;
-            color: #0000a3;
-        }
-        
-        a:hover {
-            text-decoration: underline;
-            color: #4343d3;
-        }
-
-        table{
-            width: 500px;
-            border: 1px solid black;
-            border-collapse: collapse;
-        }
-
-        th {
-            border: 1px solid black;
-            padding: 30px;
-        }
-
-        td {
-            border: 1px solid black;
-            padding: 10px;
-        }
-
-        .num {
-            text-align: right;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <h1>Tabelas Grandes</h1>
@@ -47,6 +14,7 @@
         ANATOMIA PARA TABELAS GRANDES
 
         TABLE
+            CAPTION
             THEAD
                 tr, td, th
             TBODY
@@ -56,14 +24,15 @@
      -->
 
      <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
 
             <tr>
-                <th>Posição</th>
-                <th>Estado</th>
-                <th>População (2022)</th>
-                <th>População (2010)</th>
-                <th>% Crescimento Anual</th>
+                <th scope="col">Posição</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População (2022)</th>
+                <th scope="col">População (2010)</th>
+                <th scope="col" style="width: 600px;">% Crescimento Anual</th>
             </tr>
         </thead>
 
@@ -71,48 +40,54 @@
         <tbody>
             <tr>
                 <td>1º</td>
-                <td><a href="https://pt.wikipedia.org/wiki/São_Paulo"> <img src="Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""> São Paulo</a></td>
+                <td><a href="https://pt.wikipedia.org/wiki/São_Paulo"> <img src="images/Bandeira_do_estado_de_São_Paulo.svg.webp" alt=""> São Paulo</a></td>
                 <td class="num">44 420 459</td>
                 <td class="num">41 262 199</td>
-                <td>0,62 <img src="Up_green.png" alt="seta verde para cima"></td>
+                <td>0,62 <img src="images/Up_green.png" alt="seta verde para cima"></td>
             </tr>
 
             <tr>
                 <td>2º</td>
-                <td> <img src="Bandeira_de_Minas_Gerais.svg.webp" alt=""> Minas Gerais</td>
+                <td> <img src="images/Bandeira_de_Minas_Gerais.svg.webp" alt=""> Minas Gerais</td>
                 <td class="num">20 538 718</td>
                 <td class="num">19 597 330</td>
-                <td>0,39 <img src="Up_green.png" alt=""> </td>
+                <td>0,39 <img src="images/Up_green.png" alt=""> </td>
             </tr>
 
             <tr>
                 <td>3º</td>
-                <td> <img src="Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt=""> Rio de Janeiro</td>
+                <td> <img src="images/Bandeira_do_estado_do_Rio_de_Janeiro.svg.webp" alt=""> Rio de Janeiro</td>
                 <td class="num">16 054 524</td>
                 <td class="num">15 989 929</td>
-                <td>0,03 <img src="Up_green.png" alt=""></td>
+                <td>0,03 <img src="images/Up_green.png" alt=""></td>
             </tr>
 
             <tr>
                 <td>4º</td>
-                <td> <img src="Bandeira_da_Bahia.svg.png" alt=""> Bahia</td>
+                <td> <img src="images/Bandeira_da_Bahia.svg.png" alt=""> Bahia</td>
                 <td class="num">14 136 417</td>
                 <td class="num">14 016 906</td>
-                <td>0,07 <img src="Up_green.png" alt=""></td>
+                <td>0,07 <img src="images/Up_green.png" alt=""></td>
             </tr>
 
             <tr>
                 <td>5º</td>
-                <td> <img src="Bandeira_do_Paraná.svg.webp" alt=""> Paraná</td>
+                <td> <img src="images/Bandeira_do_Paraná.svg.webp" alt=""> Paraná</td>
                 <td class="num">11 443 208</td>
                 <td class="num">10 444 526</td>
-                <td>0,76 <img src="Up_green.png" alt=""></td>
+                <td>0,76 <img src="images/Up_green.png" alt=""></td>
             </tr>
 
         </tbody>
 
         <tfoot>
-
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="bra"><strong> <img src="images/Bandeira_do_Brasil.svg.webp" alt=""> Brasil</strong></td>
+                <td class="num"><strong>203 062 51</strong></td>
+                <td class="num"><strong>190 755 799</strong></td>
+                <td><strong>6,45</strong> <img src="images/Up_green.png" alt=""></td>
+            </tr>
         </tfoot>
      </table>
 
