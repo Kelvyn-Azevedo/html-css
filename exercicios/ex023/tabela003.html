@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            text-align: center;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: lightgrey;
+        }
+    </style>
+
+</head>
+<body>
+    <table>
+
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+
+
+        <caption>Cadastro</caption>
+
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td >Livia Duarte</td>
+            <td>Femea</td>
+            <td>20</td>
+            <td >Diarista / Biologa / Vet</td>
+        </tr>
+
+        <tr>
+            <td>Kelvyn Eduardo</td>
+            <td>Macho</td>
+            <td>22</td>
+            <td> Aspirante a Garoto de Programa</td>
+        </tr>
+
+        
+
+        <tr>
+            <td>Vinicius Assis</td>
+            <td>Mei Macho</td>
+            <td>23</td>
+            <td>Aspirante a Designer</td>
+        </tr>
+
+        <tr>
+            <td>João Swim</td>
+            <td>Macho</td>
+            <td>18</td>
+            <td>Garoto de Programa</td>
+        </tr>
+
+        <tr>
+            <td>Vinicius Barbosa</td>
+            <td>Macho</td>
+            <td>21</td>
+            <td>Ensina a se Afogar ou Correr</td>
+        </tr>
+
+        <tr>
+            <td>Da Rocha</td>
+            <td>Red Pill</td>
+            <td>18</td>
+            <td>Como trair a namorada, novo ebook!</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
